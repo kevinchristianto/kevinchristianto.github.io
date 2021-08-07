@@ -1,0 +1,23 @@
+{
+  "name": "personal-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^9.0.0",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  },
+  "scripts": {
+    "dev": "gulp",
+    "build": "SET NODE_ENV=production & gulp css",
+    "build-images": "gulp images"
+  },
+  "author": "Kevin Christianto",
+  "license": "ISC"
+}
