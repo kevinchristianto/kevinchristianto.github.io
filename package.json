@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.3"
+  },
   "devDependencies": {
     "autoprefixer": "^10.3.1",
     "browser-sync": "^2.27.5",

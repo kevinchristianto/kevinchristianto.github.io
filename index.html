@@ -4,16 +4,179 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kevin Christianto</title>
-
-    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Georama:wght@300;400;500;600;700;800;900&family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+    <link href='assets/fonts/boxicons.min.css' rel='stylesheet'>
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
     
-    <!-- main wrapper -->
-    <div class="p-4 flex justify-center items-center border h-screen">
-        <h1 class="md:text-xl">Coming soon in a few days!</h1>
+<!-- main wrapper -->
+<div class="bg-gray-800 text-white min-h-screen overflow-hidden font-body">
+    <!-- hero -->
+    <div class="hero">
+        <div class="absolute z-0 top-0 right-0 w-11/12 md:w-9/12 h-96 pointer-events-none">
+            <svg class="relative z-0" viewBox="0 0 972 519" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M323 192C219.5 51 128.5 35 0 2.32458e-05L972 0L972 518.373C863.355 475.796 770.915 480.333 646 448.501C491.001 409.001 426.501 333 323 192Z" fill="#E94560"/>
+            </svg>
+        </div>
+        <div class="flex relative justify-between z-50 px-8 md:px-16 lg:px-32 pt-8">
+            <h1 class="flex-initial text-5xl md:text-8xl font-display font-bold"><span class="text-accent">.</span>K</h1>
+            <div class="flex-initial self-center">
+                <ul class="menu text-lg">
+                    <li><a href="#">get to know me</a></li>
+                    <li><a href="#">what can i do?</a></li>
+                    <li><a href="#">past projects</a></li>
+                    <li><a href="#">reach me</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sm:flex relative z-50 px-8 md:px-16 pb-8 md:py-16">
+            <div class="flex-shrink-0 py-16 md:py-0 md:mr-16 order-last">
+                <img src="assets/images/feeling-proud.svg" class="w-full sm:w-60 md:w-72 lg:w-96" alt="Hero image">
+            </div>
+            <div class="flex flex-col sm:mr-8 md:mr-16 md:ml-20 lg:ml-60 text-left sm:text-right tracking-wider my-auto">
+                <h1 class="text-5xl font-semibold">Hey there! <span class="bx bx-tada">👋</span></h1>
+                <p class="text-xl mt-6">
+                    I'm <b>Kevin</b>. I'm a full-stack developer. I build <b>Web Apps</b>, <b>Hybrid Mobile Apps</b>, and some simple <b>Machine Learning</b> tasks too.<br>
+                </p>
+                <button class="button mt-6 self-end">Find More <i class="bx bx-pointer ml-2"></i></button>
+            </div>
+        </div>
     </div>
-    <!-- ./main wrapper -->
+    <!-- ./hero -->
 
+    <!-- about -->
+    <div id="about" class="flex flex-col px-8 py-12 sm:py-24 md:px-32">
+        <h1 class="section-header">get to know me<span class="text-accent">.</span></h1>
+        <div class="sm:flex mt-12 md:mt-24">
+            <img src="assets/images/profile-pic.png" class="w-72 h-72 rounded-full my-auto mx-auto sm:mx-0">
+            <div class="sm:ml-8 md:ml-16 mt-16 sm:mt-0">
+                <h2 class="text-3xl lg:text-5xl font-semibold mr-8">Hello!</h2>
+                <p class="mt-4 text-xl sm:mr-8 lg:mr-32">
+                    I’m a programmer based on Karawang (but sometimes in Bandung), West Java. I have been interested in programming since 2015 because some of my seniors in my high school encouraged me to learn programming further than what my school taught me. Since then, I learned many other programming stuff either by doing school or college assignment, or by many small projects I did in the past.
+                </p>
+                <div class="flex flex-row">
+                    <a class="w-12 h-12 rounded-full border-2 border-accent" href="#">
+                        <i class="bx bx-instagram"></i>
+                    </a>
+                </div>
+                <button class="button mt-6">Download CV <i class="bx bx-cloud-download bx-sm ml-2"></i></button>
+            </div>
+        </div>
+    </div>
+    <!-- ./about -->
+
+    <!-- skills -->
+    <div id="skills" class="flex flex-col px-8 py-12 sm:px-16 sm:py-24 md:px-32">
+        <h1 class="section-header">what can i do<span class="text-accent">?</span></h1>
+        <p class="text-gray-400 text-md">in short, these are the languages or tools I'm able to use based on what's needed</p>
+
+        <div class="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-8 sm:mt-12">
+            <div class="skills-card">
+                <div class="skills-img">
+                    <img src="assets/images/tech/php.png">
+                </div>
+                <div class="skills-description">
+                    <h2>PHP</h2>
+                    <small>Intermediate Proficiency</small>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-img">
+                    <img src="assets/images/tech/javascript.png">
+                </div>
+                <div class="skills-description">
+                    <h2>JavaScript</h2>
+                    <small>Intermediate Proficiency</small>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-img">
+                    <img src="assets/images/tech/python.png">
+                </div>
+                <div class="skills-description">
+                    <h2>Python</h2>
+                    <small>Intermediate Proficiency</small>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-img">
+                    <img src="assets/images/tech/codeigniter.png">
+                </div>
+                <div class="skills-description">
+                    <h2>CodeIgniter</h2>
+                    <small>Intermediate Proficiency</small>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-img">
+                    <img src="assets/images/tech/laravel.png">
+                </div>
+                <div class="skills-description">
+                    <h2>Laravel</h2>
+                    <small>Intermediate Proficiency</small>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-img">
+                    <img src="assets/images/tech/react native.png">
+                </div>
+                <div class="skills-description">
+                    <h2>React Native</h2>
+                    <small>Intermediate Proficiency</small>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-img">
+                    <img src="assets/images/tech/express.png">
+                </div>
+                <div class="skills-description">
+                    <h2>Express</h2>
+                    <small>Novice Proficiency</small>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-img">
+                    <img src="assets/images/tech/tensorflow.png">
+                </div>
+                <div class="skills-description">
+                    <h2>Tensorflow</h2>
+                    <small>Novice Proficiency</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./skills -->
+
+    <!-- contact -->
+    <div id="contact" class="flex flex-col px-8 py-12 sm:px-16 sm:py-24 md:px-32">
+        <h1 class="section-header">reach me<span class="text-accent">.</span></h1>
+        <p class="text-gray-400 text-md">if you need something or you have something to ask, feel free to send me a message</p>
+        <div class="mt-6 sm:mt-12 px-8 sm:px-16 py-8 bg-gray-400 rounded-lg text-gray-800 font-semibold duration-200 focus-within:bg-gray-50">
+            <form class="flex flex-col text-right" accept-charset="utf-8" action="https://formspree.io/f/meqvrwlp" method="POST">
+                <div class="flex flex-col sm:flex-row items-center mb-4">
+                    <label class="label-horizontal">Full Name</label>
+                    <input class="block w-full rounded-md bg-gray-100 border-transparent focus:bg-white focus:ring-accent" type="text" name="name" placeholder="First and Last Name" required="">
+                </div>
+                <div class="flex flex-col sm:flex-row items-center mb-4">
+                    <label class="label-horizontal">Email Address</label>
+                    <input class="block w-full rounded-md bg-gray-100 border-transparent focus:bg-white focus:ring-accent" type="email" name="_replyto" placeholder="email@domain.tld" required="">
+                </div>
+                <div class="flex flex-col sm:flex-row items-center mb-4">
+                    <label class="label-horizontal">Message</label>
+                    <textarea class="block w-full rounded-md bg-gray-100 border-transparent focus:bg-white focus:ring-accent" rows="5" name="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+                </div>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                <button class="flex items-center justify-center w-full bg-accent py-2 text-white font-semibold rounded-md mt-4">Submit <i class="bx bx-paper-plane ml-2"></i></button>
+            </form>
+        </div>
+    </div>
+    <!-- ./contact -->
+</div>
+<!-- ./main wrapper -->
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>
